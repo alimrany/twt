@@ -378,7 +378,7 @@ footer a:hover{
 .available{
   color: #CBDAF3;
   font-size: 17px;
-  margin-left: -50px;
+  /* margin-left: -50px; */
 }
 .card{
   background-color: #EEF7FF;
