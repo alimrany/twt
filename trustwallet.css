@@ -197,7 +197,7 @@ width: 100%;
 .fafa{
   color: black;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 15px;
 }
 .fa-brands{
@@ -397,17 +397,3 @@ footer a:hover{
 .getext{
   width: 60%;
 }
-/* .card-body{
-  max-height: 120px;
-} */
-/* .partners{
-  height: auto; 
-  width: auto;
-}
-.sushi{
-  height: 70px;
-}
-.imgadj{
-  height: 60px;
-  width: auto;
-} */
