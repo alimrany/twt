@@ -9,7 +9,7 @@ body{
   width: 100%;
 }
 .img-fluid{
-  max-width: 100%;
+  width: auto;
   height:auto;
 }
 
@@ -161,14 +161,6 @@ width: 100%;
 .fa-circle-check{
   color: #32A072;
 }
-.list-group-item{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-left: 100px;
-}
-.list-group{
-  width: 100%;
-}
 .btn{
   height: 53px;
   width: 170px;
@@ -188,11 +180,6 @@ width: 100%;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-}
-.buyme{
-  font-weight: bolder;
-  margin-top: 80px;
-  margin-left: -5px;
 }
 .fafa{
   color: black;
@@ -256,17 +243,6 @@ footer a:hover{
   color: white;
   width: 100%;
 }
-/* @media screen and (min-width: 1200px){
-.navbar.container {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-}
-@media screen and (min-width: 992px) {
-  .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid, .navbar-expand-lg>.container-sm, .navbar-expand-lg>.container-md, .navbar-expand-lg>.container-lg, .navbar-expand-lg>.container-xl{
-    flex-wrap: nowrap;
-  }
-} */
 .alist{
   font-size: 18px;
   text-align: left;
@@ -360,9 +336,14 @@ footer a:hover{
  color: #4A545E;
  font-size: 17px;
  float: left;
- margin-left: -780px;
  width: 200px;
 }
+.more2{
+  color: #4A545E;
+  font-size: 17px;
+  float: left;
+  width: 250px;
+ }
 .mylogo{
   margin-bottom: -35px;
 }
@@ -378,7 +359,6 @@ footer a:hover{
 .available{
   color: #CBDAF3;
   font-size: 17px;
-  /* margin-left:git add -50px; */
 }
 .card{
   background-color: #EEF7FF;
@@ -396,4 +376,19 @@ footer a:hover{
 }
 .getext{
   width: 60%;
+}
+.icon-xxl>img {
+  width: 7.6rem;
+  height: 7.6rem;
+}
+.text-center{
+  text-align: center !important;
+}
+.apple, .googlestore, .android, .chromeweb{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerbrand{
+  margin-top: -45px;
 }
