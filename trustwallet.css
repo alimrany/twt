@@ -253,10 +253,8 @@ footer a:hover{
 }
 .bodyb{
   background-color: #0B63C3;
-  height: 150px;
   color: white;
   width: 100%;
-  overflow: hidden;
 }
 /* @media screen and (min-width: 1200px){
 .navbar.container {
@@ -325,7 +323,7 @@ footer a:hover{
 }
 .bodyc{
   background-color: #0B63C3;
-  height: 190px;
+  height: auto;
   color: white;
   width: 100%;
 }
@@ -370,10 +368,9 @@ footer a:hover{
 }
 .bodyd{
   background-color: #0B63C3;
-  height: 150px;
+  height: auto;
   color: white;
   width: 100%;
-  overflow: hidden;
 }
 .mybg{
   background-color: #0B63C3;
