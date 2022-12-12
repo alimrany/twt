@@ -1,0 +1,14 @@
+nav{
+  background-color: #0E64C6; 
+}
+.navbar-brand{
+    height:20px;
+width:fit-content
+}
+.nav-link{
+    color: white;
+}
+.badge{
+    background-color: white;
+    color:#0E64C6;
+}
