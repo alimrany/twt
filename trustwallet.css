@@ -184,11 +184,11 @@ width: 100%;
 .fafa{
   color: black;
   font-weight: bolder;
-  font-size: 15px;
+  font-size: 17px;
 }
-.crybuy{
-  width: 100%;
-}
+/* .crybuy{
+  min-width: 100%;
+} */
 .fa-brands{
   color: #5A739B;
   width: 50px;
