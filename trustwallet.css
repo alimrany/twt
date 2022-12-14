@@ -1,7 +1,7 @@
 body{
   font-family: 'ibmplexsans',sans-serif;
   overflow: auto;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .body1{
   background-color: #0B63C3;
@@ -130,6 +130,14 @@ width: 80%;
   color: #4A545E;
   text-align: left;
 }
+.ul-bullet2{
+  font-size: 18px;
+  text-align: left;
+  width: 90%;
+}
+.myli{
+  margin-left: 90px;
+}
 .fewmin{
   font-size: 20px;
 }
@@ -139,7 +147,7 @@ width: 90%;
 font-size: 25px;
 }
 .download-button{
-width: 100%;
+width: 75%;
 }
 .fa-solid{
   color: #0B63C3;
@@ -184,12 +192,13 @@ width: 100%;
 .fafa{
   color: black;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 18px;
 }
 .fa-brands{
   color: #5A739B;
   width: 50px;
 }
+
 #footer-brand-image{
   margin-top: 80px;
 }
@@ -209,19 +218,35 @@ footer a:hover{
   text-decoration: underline;
 }
 .themost{
-  font-size: 16px;
+  font-size: 17px;
+  color: #4A545E;
+  font-weight: lighter;
 }
 .gthetw{
   font-weight: bolder;
 }
 .storeall{
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
+  color: #4A545E;
 }
 .storeall1{
   font-size: 21px;
   text-align: left;
   color: #E9F0FA;
+}
+.storeall2{
+  font-size: 19px;
+  text-align: left;
+  color: #4A545E;
+  font-weight: lighter;
+}
+.storeall3{
+  font-size: 18px;
+  text-align: left;
+  color: #4A545E;
+  font-weight: lighter;
+  width: 80%;
 }
 .dwld{
   background-color: white;
@@ -236,6 +261,13 @@ footer a:hover{
   height: 53px;
   width: 170px;
   background-color: #0953A2;
+}
+.dwld2{
+  height: 53px;
+  width: 170px;
+  color: #0953A2;
+  background-color: #FFFFFF;
+  margin-left: 100px;
 }
 .bodyb{
   background-color: #0B63C3;
@@ -387,7 +419,54 @@ footer a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
+  /* flex-wrap: wrap; */
 }
 .footerbrand{
   margin-top: -45px;
+}
+.graytext{
+  color: #4A545E;
+  font-size: 20px;
+  width: 80%;
+}
+.dappmark{
+  margin-left: 70px;
+}
+.dappimg{
+  height: 340px;
+  width: 320px;
+width: 100%;
+}
+.integrate{
+  font-weight: bold;
+}
+.iconh5{
+  font-weight: bold;
+}
+.d-none{
+  display: none !important;
+}
+.col-auto{
+width: 100%;
+}
+.navbar{
+
+}
+@media screen and (min-width:615px) {
+  body{
+overflow-x: hidden;  }
+}
+@media screen and (max-width:485px) {
+  nav{
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width:395px) {
+  nav{
+    margin-left: -10px;
+  }
+  .downloadappy{
+    margin-left: -30px;
+  }
+
 }
