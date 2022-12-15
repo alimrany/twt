@@ -135,12 +135,6 @@ width: 80%;
   text-align: left;
   width: 90%;
 }
-.myli{
-  margin-left: 90px;
-}
-.fewmin{
-  font-size: 20px;
-}
 section p{
   text-align: center;
 width: 90%;
@@ -468,5 +462,70 @@ overflow-x: hidden;  }
   .downloadappy{
     margin-left: -30px;
   }
+}
+@media screen and (max-width:375px) {
+  .downloadappy{
+margin-left: -60px;
+  }
+}
+@media screen and (max-width:350px) {
+  .downloadappy{
+  width: 80px;
+  font-size: 13px;
+  }
+}
+@media screen and (max-width:330px) {
+  .downloadappy{
+  width: 70px;
+  font-size: 11px;
+  margin-left: -30px;
 
+  }
+}
+@media screen and (max-width:315px) {
+  .downloadappy{
+  width: 60px;
+  font-size: 9px;
+  margin-left: -30px;
+
+  }
+}
+@media screen and (max-width:306px) {
+  .navimg{
+    width: 170px;
+  }
+  .downloadappy{
+  width: 50px;
+  height: 20px;
+  font-size: 7px;
+  margin-left: -45px;
+
+  }
+}
+@media screen and (max-width:285px) {
+  /* .navimg{
+    width: 150px;
+  } */
+  .downloadappy{
+  width: 50px;
+  height: 20px;
+  font-size: 7px;
+  /* margin-left: -55px; */
+
+  }
+}
+@media screen and (max-width:265px) {
+  .navimg{
+    width: 120px;
+  }
+  .downloadappy{
+  width: 50px;
+  height: 20px;
+  font-size: 7px;
+  margin-left: -15px;
+
+  }
+}
+.downloadappy{
+  height: 40px;
 }
