@@ -1,6 +1,6 @@
 body{
   font-family: 'ibmplexsans',sans-serif;
-  overflow: auto;
+  /* overflow: auto; */
   overflow-x: hidden !important;
 }
 .body1{
