@@ -93,7 +93,6 @@ width: 80%;
   border: none;
   vertical-align: middle;
 }
-
 .container{
   width: 100%;
   margin-right: auto;
@@ -192,7 +191,6 @@ width: 75%;
   color: #5A739B;
   width: 50px;
 }
-
 #footer-brand-image{
   margin-top: 80px;
 }
@@ -291,7 +289,6 @@ footer a:hover{
   height: 53px;
   width: 50%;
   background-color: #0953A2;
-  
 }
 .dto{
   display: flex;
@@ -443,12 +440,10 @@ width: 100%;
 .col-auto{
 width: 100%;
 }
-.navbar{
-
-}
 @media screen and (min-width:615px) {
   body{
-overflow-x: hidden;  }
+overflow-x: hidden;  
+}
 }
 @media screen and (max-width:485px) {
   nav{
@@ -479,7 +474,6 @@ margin-left: -60px;
   width: 70px;
   font-size: 11px;
   margin-left: -30px;
-
   }
 }
 @media screen and (max-width:315px) {
@@ -487,7 +481,6 @@ margin-left: -60px;
   width: 60px;
   font-size: 9px;
   margin-left: -30px;
-
   }
 }
 @media screen and (max-width:306px) {
@@ -499,19 +492,13 @@ margin-left: -60px;
   height: 20px;
   font-size: 7px;
   margin-left: -45px;
-
   }
 }
 @media screen and (max-width:285px) {
-  /* .navimg{
-    width: 150px;
-  } */
   .downloadappy{
   width: 50px;
   height: 20px;
   font-size: 7px;
-  /* margin-left: -55px; */
-
   }
 }
 @media screen and (max-width:265px) {
@@ -523,7 +510,6 @@ margin-left: -60px;
   height: 20px;
   font-size: 7px;
   margin-left: -15px;
-
   }
 }
 @media screen and (max-width:230px) {
@@ -535,7 +521,6 @@ margin-left: -60px;
   height: 10px;
   font-size: 7px;
   margin-left: -25px;
-
   }
 }
 .downloadappy{
