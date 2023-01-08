@@ -438,10 +438,14 @@ width: 100%;
 .col-auto{
 width: 100%;
 }
+.dropdown-menu li a:hover{
+  display: flex;
+}
 @media screen and (max-width: 991px) {
-  .dropdown-menu{
+  .dropdown-item{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
     border: none;
   }
